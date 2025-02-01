@@ -55,8 +55,7 @@ def process_file(input_filename):
                     number = int(raw_line)
                 except ValueError:
                     print(
-                        f"Error in line {line_num}: Invalid data '{raw_line}', "
-                        "skipping."
+                        f"Error in line {line_num}: Invalid data '{raw_line}'"
                     )
                     error_count += 1
                     continue
